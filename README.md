@@ -4,14 +4,13 @@ Proyecto de una calculadora que utiliza una estructura de pila (Stack) para real
 ## Funcionalidades
 * **Push:** Agregar un número entero a la pila.
 * **Pop:** Quitar el último número ingresado.
-* **Sumar:** Sumar los últimos dos números de la pila (Lógica RPN).
+* **Sumar:** Sumar los últimos dos números de la pila.
 * **Stack Dump:** Visualización del estado actual de la memoria y la posición del puntero de pila (SP).
 
 ## Compilación y ejecución
 
 ```bash
-gcc stack.c main.c -o calculadora
-./calculadora
+make && ./calculadora
 ```
 
 ## Estructura del código
